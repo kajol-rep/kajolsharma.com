@@ -27,17 +27,17 @@
     <h2>@container</h2>
 
     <h3>fluid container</h3>
-    <div>This is a fluid container and it will go till the end of the page</div>
+    <div class="container">This is a fluid container and it will go till the end of the page</div>
 
     <h3>center container</h3>
-    <div>This is a centered container and it will go till the specified width</div>
+    <div class="container container-center">This is a centered container and it will go till the specified width</div>
 
     <hr>
 
     <h2>@links</h2>
 
-    <a href="/">Primary Link</a>
-    <a href="/">Secondary Link</a>
+    <a class="link primary-link" href="/">Primary Link</a>
+    <a class="link secondary-link" href="/">Secondary Link</a>
 
     <hr>
 
@@ -46,7 +46,7 @@
     <h3>unordered list</h3>
     <p> This list will not have the bullet</p>
 
-    <ul>
+    <ul class="list-non-bullet">
         <li>Item One</li>
         <li>Item Two</li>
         <li>Item Three</li>
@@ -55,10 +55,10 @@
 
     <h3> unordered inline list</h3>
 
-    <ul>
-        <li>Inline Item One</li>
-        <li>Inline Item Two</li>
-        <li>Inline Item Three</li>
+    <ul class="list-non-bullet">
+        <li class="list-item-inline">Inline Item One</li>
+        <li class="list-item-inline">Inline Item Two</li>
+        <li class="list-item-inline">Inline Item Three</li>
     </ul>
 
     <h3> reverse ordered list</h3>
@@ -73,20 +73,20 @@
 
     <h2>@nav</h2>
 
-    <nav>
-        <div>iAmBrand</div>
-        <div>IAMDEVELOPER</div>
-        <ul>
-            <li>
-                <a href="/">home</a>
+    <nav class="navigation container">
+        <div class="nav-brand">iAmBrand</div>
+        
+        <ul class="list-non-bullet nav-pills">
+            <li class="list-item-inline">
+                <a class="link link-active" href="/">home</a>
             </li>
             <li class="list-item-inline">
-                <a href="/">products</a>
-                <a href="/projects.html">projects</a>
+                <a class="link" href="/">products</a>
+                
             </li>
             <li class="list-item-inline">
-                <a href="/">about</a>
-                <a href="/blogs.html">blogs</a>
+                <a class="link" href="/">about</a>
+                
             </li>
         </ul>
     </nav>
@@ -96,15 +96,16 @@
     <h2>@header</h2>
 
     <header class="hero">
-        <img  src="images/hero.svg" />
-        <h1>adarsh balika the <span class="heading-inverted"> web developer</span></h1>
+        <img class="hero-img" src="images/hero.svg" />
+        <h1 class="hero-heading">adarsh balika the
+             <span class="heading-inverted"> web developer</span></h1>
     </header>
 
     <hr>
     <h2>@section</h2>
     <section>
-    <section>
-        <div>
+    <section class="section">
+        <div class="container container-center">
             <h1>white section</h1>
             <p>We are an open community of developers building resources for a better Web, regardless of brand, browser,
                 or platform. Anyone can contribute and each person who does makes us stronger. Together we can continue
@@ -122,7 +123,7 @@
         </div>
     </section>
 
-    <section>
+    <section class="section ow">
         <div>
             <h1>off white section</h1>
             <p>We are an open community of developers building resources for a better Web, regardless of brand, browser,
@@ -138,8 +139,27 @@
     <hr>
 
     <h2>@footer</h2>
-    <footer>
-       <p>this is the footer</p> 
+    <footer class="footer">
+        <div>
+            Some small heading inside footer
+        </div>
+       <ul class="list-non-bullet">
+           <li class="list-item-inline">
+               <a class="link" href="/">
+                socialOne
+            </a>
+           </li>
+           <li class="list-item-inline">
+            <a class="link" href="/">
+             socialTwo
+         </a>
+        </li>
+        <li class="list-item-inline">
+            <a class="link" href="/">
+             socialThree
+         </a>
+        </li>
+       </ul> 
     </footer>
 </body>
 </html>
