@@ -3,163 +3,102 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Component Library</title>
+    <title>Home | Kajol</title>
     <link href="styles.css" rel="stylesheet"/>
 </head>
 <body>
-    <h1>tanay's component library</h1>
-    <p>I am attending neog.camp and I want to make a library which would make all my projects look good and consistent.
-    </p>
-
-    <hr>
-
-
-    <h2>@typography</h2>
-
-    <h1>This is the biggest heading</h1>
-    <h2>This is the second biggest</h2>
-    <p> Let me show you the normal text. This is free flowing and will wrap at the end like a paragraph. </p>
-    <p>This paragraph will have a <strong>bold</strong> text</p>
-    <small>This is relatively smaller text</small>
-
-    <hr>
-
-    <h2>@container</h2>
-
-    <h3>fluid container</h3>
-    <div class="container">This is a fluid container and it will go till the end of the page</div>
-
-    <h3>center container</h3>
-    <div class="container container-center">This is a centered container and it will go till the specified width</div>
-
-    <hr>
-
-    <h2>@links</h2>
-
-    <a class="link primary-link" href="/">Primary Link</a>
-    <a class="link secondary-link" href="/">Secondary Link</a>
-
-    <hr>
-
-    <h2>@lists</h2>
-
-    <h3>unordered list</h3>
-    <p> This list will not have the bullet</p>
-
-    <ul class="list-non-bullet">
-        <li>Item One</li>
-        <li>Item Two</li>
-        <li>Item Three</li>
-
-    </ul>
-
-    <h3> unordered inline list</h3>
-
-    <ul class="list-non-bullet">
-        <li class="list-item-inline">Inline Item One</li>
-        <li class="list-item-inline">Inline Item Two</li>
-        <li class="list-item-inline">Inline Item Three</li>
-    </ul>
-
-    <h3> reverse ordered list</h3>
-
-    <ol reversed>
-        <li>milk</li>
-        <li>eggs</li>
-        <li>break</li>
-    </ol>
-
-    <hr />
-
-    <h2>@nav</h2>
-
     <nav class="navigation container">
-        <div class="nav-brand">iAmBrand</div>
-        
-        <ul class="list-non-bullet nav-pills">
+        <ul class="list-non-bullet space-out">
+            <li>
+        <img class="user-image" src="https://pbs.twimg.com/profile_images/1266792130711879683/i0ElWni3_400x400.jpg"/>
+    </li>
+    <li>
+        <div class=" nav-brand">MyPortfolio</div>
+    </li>
+    </ul>
+        <ul class="list-non-bullet nav-pills space-out">
             <li class="list-item-inline">
-                <a class="link link-active" href="/">home</a>
+                <a class="link link-active" href="/">HOME</a>
             </li>
             <li class="list-item-inline">
-                <a class="link" href="/">products</a>
+                <a class="link" href="/">PROJECTS</a>
                 
             </li>
             <li class="list-item-inline">
-                <a class="link" href="/">about</a>
+                <a class="link" href="/">BLOGS</a>
                 
             </li>
         </ul>
     </nav>
 
-    <hr>
 
-    <h2>@header</h2>
-
+    
     <header class="hero">
         <img class="hero-img" src="images/hero.svg" />
-        <h1 class="hero-heading">adarsh balika the
-             <span class="heading-inverted"> web developer</span></h1>
+        <h1 class="hero-heading">
+            Hi,
+        </h1>
+        <h1 class="hero-heading">I am <span class=" heading-inverted">Kajol Sharma</span></h1>
+            <h2 class="hero-heading"><span class=" heading-inverted">Associate software engineer</span> at Mphasis</h2>
     </header>
-
-    <hr>
-    <h2>@section</h2>
-    <section>
-    <section class="section">
+    
+    <section class="section ow">
         <div class="container container-center">
-            <h1>white section</h1>
-            <p>We are an open community of developers building resources for a better Web, regardless of brand, browser,
-                or platform. Anyone can contribute and each person who does makes us stronger. Together we can continue
-                to drive innovation on the Web to serve the greater good. It starts here, with you.</p>
-            <h1>technologies</h1>
-            <p>I'm familiar with HTML5, CSS3, Git, JavaScript, NodeJS, ReactJS, and Web Hosting</p>
+            <h1>Technologies</h1>
+            <p>I'm familiar with Java, HTML5, CSS3, Git, JavaScript, NodeJS, ReactJS, and Web Hosting.</p>
+            
         </div>
-    </section>
 
+    </section>
+     
     <section class="section">
         <div class="container container-center">
-            <h1>projects</h1>
-            <p>I like to showcase my work and thus, you can see my projects hosted online</p>
-            <a href="/">See Projects</a>
+            <h1>Projects</h1>
+            <p>Currently I have been learning web development and I have made several intresting projects. All my projects are available here You can see them from top.</p>
+            
         </div>
     </section>
 
     <section class="section ow">
-        <div>
-            <h1>off white section</h1>
-            <p>We are an open community of developers building resources for a better Web, regardless of brand, browser,
-                or platform. Anyone can contribute and each person who does makes us stronger. Together we can continue
-                to drive innovation on the Web to serve the greater good. It starts here, with you.</p>
-            <h1>blogs</h1>
-            <p>I am also working on some technical and non techincal blogs. I like to document my journey of learning.</p>
-            <a href="/">Read Blogs</a>
+        <div class="container container-center">
+            <h1>Blogs</h1>
+            <p>I have always enjoyed learning new technologies. In order to learn something new everytime, I have discovered
+                many amazing ways and platform to learn which I feel should be shared among others who are struggling to even start their journey in coding.
+                So, go check them out from top.
+             </p>
+            
         </div>
 
     </section>
 
-    <hr>
-
-    <h2>@footer</h2>
+    
     <footer class="footer">
         <div>
-            Some small heading inside footer
+            You can connect with me here
         </div>
-       <ul class="list-non-bullet">
+        
+        <img src="https://uxwing.com/wp-content/themes/uxwing/download/10-brands-and-social-media/linkedin-round.png" class="social-image">
+        <img src="https://cdn3.iconfinder.com/data/icons/picons-social/57/43-twitter-512.png" class="social-image">
+        <img src="https://cdn.iconscout.com/icon/free/png-256/github-153-675523.png" class="social-image">
+       <ul class="list-non-bullet space-out">
            <li class="list-item-inline">
+            
                <a class="link" href="/">
-                socialOne
+                Linkedin
             </a>
            </li>
            <li class="list-item-inline">
             <a class="link" href="/">
-             socialTwo
+             Twitter
          </a>
         </li>
         <li class="list-item-inline">
             <a class="link" href="/">
-             socialThree
+             GitHub
          </a>
         </li>
        </ul> 
     </footer>
+
 </body>
 </html>
