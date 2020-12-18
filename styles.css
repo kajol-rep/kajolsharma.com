@@ -25,9 +25,14 @@ body {
     margin: auto;
 
 }
+.pad-link{
+    padding-top: 2rem;
+    text-align: center;
+    
 
+}
 .link{
-     
+    
     text-decoration: none;
     padding: 0.5rem 1rem;
 }
@@ -45,6 +50,19 @@ body {
     border: 1px solid var(--primary-color);
 }
 
+.project-img{
+    max-width: 10rem;
+    max-height: 10rem;
+    display: block;
+    margin: auto;
+    border-radius: 50rem;
+
+}
+.blog-img{
+    
+    height: 15rem;
+    width: 38rem;
+}
 .list-non-bullet{
     list-style: none;
     
@@ -98,7 +116,7 @@ body {
     text-align: center;
 }
 
-.hero .hero-heading .heading-inverted{
+.heading-inverted{
     color: var(--primary-color);
 
 }
