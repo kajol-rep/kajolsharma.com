@@ -51,8 +51,8 @@ body {
 }
 
 .project-img{
-    max-width: 10rem;
-    max-height: 10rem;
+    max-width: 12rem;
+    max-height: 12rem;
     display: block;
     margin: auto;
     border-radius: 50rem;

@@ -126,15 +126,28 @@
         <p>
             There are many but I have come across 2 status codes, listed below:
         </p>
-        <p>
-            <strong>1. 200</strong> <span style="background-color: green;">OK</span>
+        <ul>
+            <li>
+            <strong> 200</strong> <span style="background-color: rgb(85, 238, 85);">OK</span>
             <br><br>
-            The request has succeeded. This will be indicated witha green color circle.
-        </p>
-        <p>
-            <strong>2. 429</strong> <span style="background-color:red;">Too Many Requests</span>
-            The user has sent too many requests in a given amount of time. This will be indicated with a red color circle.
-        </p>
+               The request has succeeded. This will be indicated with a green color circle.
+            </li>
+        <br><br>
+
+        <li>
+            <strong> 429</strong> <span style="background-color:rgb(236, 74, 74);">Too Many Requests</span>
+            <br><br>
+               The user has sent too many requests in a given amount of time. This will be indicated with a red color circle.
+        </li>
+        <br><br>
+        <li>
+            <strong> 304</strong> <span style="background-color: rgb(85, 238, 85);">Not Modified</span>
+            <br><br>
+               If the client has performed a conditional GET request and access is allowed, but the document has not been modified, the server SHOULD respond with this status code.
+        </li>
+
+        </ul>
+        <br><br>
         <p>
             If you want to know more about status codes you can refer this website -> 
             <a href="https://developer.mozilla.org/en-US/docs/Web/HTTP/Status" style="text-decoration: none;">https://developer.mozilla.org/en-US/docs/Web/HTTP/Status</a>
