@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>kajolsharma.com | blog-2</title>
+    <link href="/styles.css" rel="stylesheet"/>
+</head>
+<body>
+    <div style="margin-left: auto; margin-right: auto; max-width: 40rem;
+        padding: 1rem 1rem;">
+        <h3 style="color: #6366F1;">
+            <a href="/blogs.html" style="color: #6B7280; text-decoration: none;">
+                /kajolsharma.com</a>
+            /Blogs </h3>
+            <h1 class="hero-heading">
+                Inspect Network Activity in Chrome Dev Tools
+            </h1>
+            <p style="font-size: .8rem;"><strong>December 20, 2020</strong> </p>
+        <img class="blog-img" src="/images/tool.jpg" />
+        <br><br>
+        <p>
+            Recently I was making a web app for my portfolio and I came across Network panel in the Google Chrome developer tools. Then I learnt that it can be very useful for debugging process.
+            I will share some helpful information about this network tool.
+        </p>
+        <h2>Lets get started</h2>
+        <p>
+            In order to access this feature open a resposive web page, write click then go to inspect. Now navigate to network from top menu.
+
+        </p>
+        <p>
+            Now you are good to go --
+            <br><br>
+            Lets click on the translate button, now you will be able to see the updated Network tab showing the GET request that happens to fetch the translated output for the given input.
+
+        </p>
+        <p>
+            Now, click on the request to dig deeper into the details, as shown below.
+        </p>
+        <p>
+            Here you can see the headers, the status code that is returned, and the parameters on the request. 
+
+        </p>
+        <h2>
+            Types of request methods
+        </h2>
+        <ul>
+            <li>
+                GET
+            </li>
+            <li>
+                POST
+            </li>
+            <li>
+                PUT
+            </li>
+            <li>
+                CONNECT
+            </li>
+            <li>
+                DELETE
+            </li>
+            <li>
+                HEAD
+            </li>
+            <li>
+                OPTIONS
+            </li>
+            <li>
+                PATCH
+            </li>
+            <li>
+                TRACE
+            </li>
+        </ul>
+        <p>
+            The <span style="background-color: yellow;">GET</span> 
+            method requests a representation of the specified resource. Requests using GET should only retrieve data.
+        </p>
+        <p>
+            The <span style="background-color: yellow;">POST</span>
+            method is used to submit an entity to the specified resource, often causing a change in state or side effects on the server.
+
+        </p>
+        <p>
+            The <span style="background-color: yellow;">PUT</span>
+            method replaces all current representations of the target resource with the request payload.
+        </p>
+        <p>
+            The <span style="background-color: yellow;">CONNECT</span>
+            method establishes a tunnel to the server identified by the target resource.
+        </p>
+        <P>
+            The <span style="background-color: yellow;">DELETE</span>
+            method deletes the specified resource.
+        </P>
+        
+        <p>
+            The <span style="background-color: yellow;">Head</span>
+            method asks for a response identical to that of a GET request, but without the response body.
+        </p>
+        <p>
+            The <span style="background-color: yellow;">CONNECT</span>
+            method establishes a tunnel to the server identified by the target resource.
+        </p>
+        <P>
+            The <span style="background-color: yellow;">DELETE</span>
+            method deletes the specified resource.
+        </P>
+        
+        <p>
+            The <span style="background-color: yellow;">OPTIONS</span>
+            method is used to describe the communication options for the target resource.
+        </p>
+        <P>
+            The <span style="background-color: yellow;">TRACE</span>
+            method performs a message loop-back test along the path to the target resource.
+        </P>
+        <p>
+            The <span style="background-color: yellow;">PATCH</span>
+            method is used to apply partial modifications to a resource.
+        </p>
+        <h2>
+            Status codes
+        </h2>
+        <p>
+            There are many but I have come across 2 status codes, listed below:
+        </p>
+        <p>
+            <strong>1. 200</strong> <span style="background-color: green;">OK</span>
+            <br><br>
+            The request has succeeded. This will be indicated witha green color circle.
+        </p>
+        <p>
+            <strong>2. 429</strong> <span style="background-color:red;">Too Many Requests</span>
+            The user has sent too many requests in a given amount of time. This will be indicated with a red color circle.
+        </p>
+        <p>
+            If you want to know more about status codes you can refer this website -> 
+            <a href="https://developer.mozilla.org/en-US/docs/Web/HTTP/Status" style="text-decoration: none;">https://developer.mozilla.org/en-US/docs/Web/HTTP/Status</a>
+        </p>
+        <p>
+            To understand the network tool in detail you can refer this website -> 
+            <a href="https://developers.google.com/web/tools/chrome-devtools/network/reference#headers" style="text-decoration: none;">https://developers.google.com/web/tools/chrome-devtools/network/reference#headers</a>
+        </p>
+
+        <hr>
+            <footer style="text-align: center;">
+                <h3>Connect with me here</h3>
+                <p>
+                    <span>
+                        |
+                        <a href="https://twitter.com/KajolSh21769182" style="text-decoration: none;">
+                            twitter</a>
+                            |
+                    </span>
+                    <span>
+                        |
+                        <a href="https://www.linkedin.com/in/kajol-sharma-bb1ba4153" style="text-decoration: none;">
+                            linkedin</a>
+                            |
+                    </span>
+                    <span>
+                        |
+                        <a href="https://github.com/kajol-rep" style="text-decoration: none;">
+                            github</a>
+                            |
+                    </span>
+                </p>
+            </footer>
+            </div>
+            
+
+</body>
+</html>

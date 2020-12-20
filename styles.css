@@ -60,7 +60,7 @@ body {
 }
 .blog-img{
     
-    height: 15rem;
+    height: 20rem;
     width: 38rem;
 }
 .list-non-bullet{
@@ -111,7 +111,7 @@ body {
 }
 
 .hero .hero-heading{
-    padding-top: 1rem;
+    padding-top: 0rem;
     color: var(--dark-grey);
     text-align: center;
 }
@@ -142,6 +142,10 @@ body {
 }
  .ow{
      background-color: var(--off-white);
+ }
+
+ .lw{
+     background-color: #EFF6FF;
  }
 
 .footer{
